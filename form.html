@@ -6,19 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    this is a sample form. <br> contact me<hr>
+    this is a sample form. <br><br>
     <form action="/action.php">
        Name: <input type="text" placeholder="whats your name?">
-       Password: <input type="password" placeholder="type password">
-
+       <br><br>Password: <input type="password" placeholder="type password">
+<br><br> choosoe a class:<br><br>
        <label for="2">
         <input type="radio" value="class 2" name="class" id="2">class 2
     
     
-    </label>
+    </label><br>
     <label for="3">
            <input type="radio" value="class 3" name="class"id="3">class 3
-    </label>
+    </label><br>
+<br>
+choose your sub:<br><br>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101">
+        Math
+        </label><br>
+        <label for="chem">
+            <input type="checkbox" value="chem" name="subject" id="102">
+            chem
+            </label>
+            <br>
+            <label for="gk">
+                <input type="checkbox" value="gk" name="subject" id="103">
+                gk
+                </label>
+                <br><br>
+                <textarea name="feedback" id="101" placeholder="please add your note" height="500">feedback</textarea>
+                <br><br>
+                this is dropdown<br>
+                <select name="food items">
+                    <option value="fish">fish</option>
+                    <option value="meat">meat</option>
+                    <option value="fruits">fruits</option>
+
+                </select>
+                <input type="submit" value="submit">
+
     </form>
 </body>
 </html>
